@@ -8,7 +8,7 @@ Ce TD a pour objectif de tester l'outil de référence de bitcoin. L'outil 'offi
 
 #### Q0: Qu'est ce qu'un démon ?
 
-L'outil s'installe à partir du site de réference et pour cette première partie, on peut utiliser les outils binaires mis à disposition sur cette page : https://bitcoin.org/fr/telecharger (`brew install bitcoin` sur macOS si vous avez installé le gestionnaire de paquets `brew`). Ce TD a été écrit avec la version 0.13 sortie en Août 2016. Installez la dernière version. Si vous constatez des erreurs dans ce TD, n'hésitez pas à me le signaler ou à faire une pull request sur Github. C'est aussi vrai pour les autres TD/TP de ce cours.
+L'outil s'installe à partir du site de réference et pour cette première partie, on peut utiliser les outils binaires mis à disposition sur cette page : https://bitcoin.org/fr/telecharger. Ce TD a été écrit avec la version 0.13 sortie en Août 2016. Installez la dernière version. Si vous constatez des erreurs dans ce TD, n'hésitez pas à me le signaler ou à faire une pull request sur Github. C'est aussi vrai pour les autres TD/TP de ce cours.
 
     Récupérer les binaires du site
     Ajouter le repertoire bin dans votre path
@@ -47,7 +47,7 @@ Pour interagir avec le démon de synchronisation, on utilise le client bitcoin-c
 #### Q4 : que signifie cli ?
 #### Q5 : que signifie rpc ?
 
-Pour éviter de répeter la commande 'bitcoin-cli -regtest' *ad nauseam* on peut créer l'alias suivant :
+Pour éviter de répeter la commande 'bitcoin-cli -regtest' *ad-noseam* on peut créer l'alias suivant :
 
     alias rt='bitcoin-cli -regtest'
 
@@ -55,7 +55,6 @@ On peut maintenant interagir avec le demon de synchronisation, qui ne synchronis
 Voici quelques commandes d'interaction avec ce processus :
 
     rt -h : liste les commandes rpc
-    rt getinfo : donne des informations sur le noeud. Cette commande est dépréciée mais vous sera utile plus tard.
     rt getblockchaininfo : donne des informations sur la blockchain
     rt getnetworkinfo : donne des informations sur le réseau
     rt getwalletinfo : donne des informations sur le portefeuille
@@ -91,7 +90,7 @@ Lancer un second démon en utilisant un autre repertoire de référence.
 
     bitcoind -regtest -datadir="./demon2"
 
-#### Q9: que ce passe t'il
+#### Q9: que se passe-t-il
 
 Il est possible de faire tourner deux démons sur la même machine à condition qu'ils ne partagent pas le même environnement de blockchain, et qu'ils utilisent des ports différents.
 
