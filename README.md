@@ -77,7 +77,7 @@ Si vous avez réussi à obtenir 50 btc sur un compte vous pouvez donc le dépens
 
     rt addnode <addr> onetry : permet d'ajouter un pair dans votre réseau
     rt getnewaddress : permet de générer une nouvelle adresse bitcoin
-    rt sendtoadress <btcaddr> <montant> : permet de transférer <montant> btc à l'addresse <btcaddr>
+    rt sendtoaddress <btcaddr> <montant> : permet de transférer <montant> btc à l'addresse <btcaddr>
 
 #### Q7 : Indiquez toutes les commandes cli à passer pour transferer 10BTC à votre voisin en partant d'une nouvelle chaîne.
 
