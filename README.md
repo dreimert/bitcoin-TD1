@@ -55,6 +55,7 @@ On peut maintenant interagir avec le demon de synchronisation, qui ne synchronis
 Voici quelques commandes d'interaction avec ce processus :
 
     rt -h : liste les commandes rpc
+    rt getinfo : donne des informations sur le noeud. Cette commande est dépréciée mais vous sera utile plus tard.
     rt getblockchaininfo : donne des informations sur la blockchain
     rt getnetworkinfo : donne des informations sur le réseau
     rt getwalletinfo : donne des informations sur le portefeuille
