@@ -8,7 +8,7 @@ Ce TD a pour objectif de tester l'outil de référence de bitcoin. L'outil 'offi
 
 #### Q0: Qu'est ce qu'un démon ?
 
-L'outil s'installe à partir du site de réference et pour cette première partie, on peut utiliser les outils binaires mis à disposition sur cette page : https://bitcoin.org/fr/telecharger. Ce TD a été écrit avec la version 0.13 sortie en Août 2016. Installez la dernière version. Si vous constatez des erreurs dans ce TD, n'hésitez pas à me le signaler ou à faire une pull request sur Github. C'est aussi vrai pour les autres TD/TP de ce cours.
+L'outil s'installe à partir du site de réference et pour cette première partie, on peut utiliser les outils binaires mis à disposition sur cette page : https://bitcoin.org/fr/telecharger (`brew install bitcoin` sur macOS si vous avez installé le gestionnaire de paquets `brew`). Ce TD a été écrit avec la version 0.13 sortie en Août 2016. Installez la dernière version. Si vous constatez des erreurs dans ce TD, n'hésitez pas à me le signaler ou à faire une pull request sur Github. C'est aussi vrai pour les autres TD/TP de ce cours.
 
     Récupérer les binaires du site
     Ajouter le repertoire bin dans votre path
