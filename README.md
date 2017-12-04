@@ -47,7 +47,7 @@ Pour interagir avec le démon de synchronisation, on utilise le client bitcoin-c
 #### Q4 : que signifie cli ?
 #### Q5 : que signifie rpc ?
 
-Pour éviter de répeter la commande 'bitcoin-cli -regtest' *ad-noseam* on peut créer l'alias suivant :
+Pour éviter de répeter la commande 'bitcoin-cli -regtest' *ad nauseam* on peut créer l'alias suivant :
 
     alias rt='bitcoin-cli -regtest'
 
